@@ -7,6 +7,10 @@ https://www.youtube.com/watch?v=Q_HUkWczd34&list=PLEiBaBxmVLi9-Ioe2lys5xpR4S4fUO
 
 https://www.automatetheplanet.com/automate-windows-desktop-apps-winappdriver
 
+ # Enable Windows 10 Developer Mode
+ Open Windows 10 Settings. Then navigate to Update & Settings. Click For Developers tab. Choose the Developer mode option.
+
+
 # How to get the Application id
 1) Run the application.
  
