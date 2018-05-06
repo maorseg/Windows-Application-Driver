@@ -16,9 +16,9 @@ https://www.automatetheplanet.com/automate-windows-desktop-apps-winappdriver
  
 4) Under General tab - Location.
 
-e.g. for Calc:
+E.G. for Calculator:
 C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1804.911.0_x64__8wekyb3d8bbwe
-therfore in your script DesiredCapabilities it will show like this:
+therefore in your script DesiredCapabilities the line will look like this:
 capabilities.setCapability("app", "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App");
 
 # Inspecting UI Elements
