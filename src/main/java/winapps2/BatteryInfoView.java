@@ -119,8 +119,7 @@ public class BatteryInfoView {
         String result = driverSession.findElementByAccessibilityId("1002").getAttribute("Name");
         System.out.println("Element value1: " + result);
         Assert.assertNotNull(result);
-
-
+        
         String result2 = driverSession.findElementByAccessibilityId("1004").getAttribute("Name");
         System.out.println("Element value2: " + result2);
         Assert.assertEquals(result2,"http://www.nirsoft.net");
