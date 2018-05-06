@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=Q_HUkWczd34&list=PLEiBaBxmVLi9-Ioe2lys5xpR4S4fUO
 https://www.automatetheplanet.com/automate-windows-desktop-apps-winappdriver
 
 # How to get the Application id
-1.Run the application.
+ 1.Run the application.
  
 2. Go to task manager - Details tab.
  
