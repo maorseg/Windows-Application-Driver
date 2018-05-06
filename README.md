@@ -8,13 +8,13 @@ https://www.youtube.com/watch?v=Q_HUkWczd34&list=PLEiBaBxmVLi9-Ioe2lys5xpR4S4fUO
 https://www.automatetheplanet.com/automate-windows-desktop-apps-winappdriver
 
 # How to get the Application id
- 1.Run the application.
+1) Run the application.
  
-2. Go to task manager - Details tab.
+2) Go to task manager - Details tab.
  
-3. Find the application and click on properties.
+3) Find the application and click on properties.
  
-4. Under General tab - Location.
+4) Under General tab - Location.
 
 e.g. for Calc:
 C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1804.911.0_x64__8wekyb3d8bbwe
