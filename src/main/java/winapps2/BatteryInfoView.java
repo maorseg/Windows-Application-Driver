@@ -108,6 +108,23 @@ public class BatteryInfoView {
         Assert.assertEquals(result,"Designed Capacity");
         SECONDS.sleep(2);
     }
+    
+    @Test
+    // Check a radio button
+    public void RadioButtonExample() throws InterruptedException {
+        driverSession.findElementByName("Options").click();
+        driverSession.findElementByName("Advanced Options").click();
+
+        //If the checkbox is not selected then checkbox.booleanValue() will return false
+        Boolean checkbox = driverSession.findElementByAccessibilityId("1015").isSelected();
+        System.out.println("The checkbox is selected true/false - " + checkbox.booleanValue());
+
+        // And NOT of false is true, i.e we can click on checkbox
+        if(!checkbox.booleanValue())
+        driverSession.findElementByAccessibilityId("1015").click();
+        driverSession.findElementByName("OK").click();
+        SECONDS.sleep(2);
+    }
 
     // ...
 
