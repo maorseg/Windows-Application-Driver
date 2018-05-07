@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Android Suite">
+
+    <!--Run all project tests-->
+
+    <!--Run BatteryInfoView class tests-->
+    <test name="Verify BatteryInfoView elements">
+        <classes>
+            <class name="winapps2.BatteryInfoView"/>
+        </classes>
+    </test>
+
+    <!--Run Options class tests-->
+    <test name="Verify Options elements">
+        <classes>
+            <class name="winapps2.Options"/>
+        </classes>
+    </test>
+
+    <!--Run About class tests-->
+    <test name="Verify About elements">
+        <classes>
+            <class name="winapps2.About"/>
+        </classes>
+    </test>
+
+    <!--Run About class tests-->
+    <test name="Verify TopBar elements">
+        <classes>
+            <class name="winapps2.TopBar"/>
+        </classes>
+    </test>
+
+    <!--Run Buttons class tests-->
+    <test name="Verify Buttons elements">
+        <classes>
+            <class name="winapps2.Buttons"/>
+        </classes>
+    </test>
+
+</suite>
